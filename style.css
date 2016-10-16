@@ -120,7 +120,8 @@ background: #FF0000;
 list-style: none;
 padding: 0;
 margin:0
-}.menu li {
+}
+.menu li {
 display: inline-block;
 font-size: 18px;
 background: #FF0000;
