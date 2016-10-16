@@ -1,0 +1,5 @@
+.seguridad{
+	/* la propiedad background permite colocar un color o imagen de fondo */
+	background: url("img/viaje-seguro.jpg") no-repeat center center;
+	height: 300px;
+}
