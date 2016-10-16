@@ -8,6 +8,9 @@
     <title>Y tú qué planes</title>
 
     <!-- Colocar los estilos del Bootstrap y el style.css -->
+        <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -22,17 +25,19 @@
     <div class="page">
       <div class="container">
         <header class="cabecera">
-        	<div class="logotipo">
-        		<img src="img/logo.png">
-        	</div>
-        	<div class="redes-sociales">
-        		<img src="img/facebook.png">
-        		<img src="img/youtube.png">
-        	</div>
+          <div class="logotipo">
+
+          </div>
+          <div class="redes-sociales">
+            <img src="img/facebook.png">
+            <img src="img/twitter.png">
+            <img src="img/youtube.png">
+          </div>
         </header>
         <nav class="fondo-menu">
           <ul class="menu">
-            <li>
+              <img src="img/logo.png">
+               <li>
               <a href="#">Inicio</a>
             </li>
             <li>
@@ -53,66 +58,75 @@
           </ul>
         </nav>
         <div class="contenido">
+          
           <div class="banner">
-            <h1 class="subtitulo">¡Visita Kuélap!</h1>
-            <h4 class="subtitulo">Chachapoyas esta más cerca de ti</h4>
+            <h1>¡Visita Kuélap!</h1>
+            <h4>Chachapoyas esta más cerca de ti</h4>
           </div>
           <div class="bienvenida">
-            <h2 class="subtitulo">Descubre Amazonas</h2>
+            <h2 class="texto-bienvenida">Descubre Amazonas</h2>
             <p>Bosques de neblina y páramos con privilegiados microclimas te dan la bienvenida a un departamento donde la historia y la naturaleza están en su máxima expresión. Descubre en Amazonas imponentes paisajes, una flora y fauna envidiable y encuentra en cada una de sus estructuras arquitectónicas, como la enigmática ciudadela de Kuélap, y sus misteriosas tumbas y sarcófagos, un relato diferente. Te invitamos a vivir esta experiencia.</p>
           </div>
           <section class="iconos">
-          	<div class="row">
-	            <div class="col-md-4">
-	              <!-- Insertar el icono correspondiente y dar formato a su texto dentro de un cuadro de color -->
-	              <h4 class="mapas y guias">Mapas y Guías</h4>        
-	            </div>
-	            <div class="col-md-4">
-	              <h4 class="galeria turistica">Galería turistica</h4>
-	            </div>
-	            <div class="col-md-4">
-	              <h4 class="mas informacion">Más información</h4>
-	            </div>
-          	</div>
+            <div class="row">
+              <div class="col-md-4">
+                <!-- Insertar el icono correspondiente y dar formato a su texto dentro de un cuadro de color -->
+                <img src="img/map.png"> 
+                <h4 class="mapas-guias">Mapas y Guías</h4>
+                       
+              </div>
+              <div class="col-md-4">
+                <img src="img/fotos.png">
+                <h4 class="galeria-turistica">Galería turistica</h4>
+                
+              </div>
+              <div class="col-md-4">
+                <img src="img/folder.png">
+                <h4 class="mas-informacion">Más información</h4>
+                
+              </div>
+            </div>
+                      <img src="img/globo-celeste.png">
           </section>
           
           <section class="promociones">
-          		<h4>Promociones insuperables</h4>
-              	<p>El Perú es una gran marca y todos estamos invitados a ser sus embajadores.</p>
-              	<div class="row">
-		            <div class="col-md-4">
-		              <img src="img/banner01.png">
-		            </div>
-		            <div class="col-md-4"> 
-		              <img src="img/banner02.png">
-		            </div>
-		            <div class="col-md-4">
-		              
-		              
-		            </div>
-	          	</div>
+              <h4 class="promociones">Promociones insuperables</h4>
+                <p class="texto-parrafo">El Perú es una gran marca y todos estamos invitados a ser sus embajadores.</p>
+
+                <div class="row">
+                <div class="col-md-4">
+                  <img class="cuadro-imagen" src="img/banner01.png">
+                </div>
+                <div class="col-md-4"> 
+                  <img class="cuadro-imagen" src="img/banner02.png">
+                </div>
+                <div class="col-md-4">
+                  <img class="cuadro-imagen" src="img/banner03.png">                
+                </div>
+              </div>
           </section>
           <section class="seguridad">
-          	<div class="row">
-          		<div class="col-md-12">
-          			<h2>Disfruta de un viaje seguro</h2>
-          			<ul>
-          				<li>Consulta y contrata servicios formales (www.mincetur.gob.pe/peru.travel)</li>
-						<li>Verifica las condiciones del servicio que contratas.</li>
-						<li>En turismo de aventura, verifica que te ofrezcan las medidas de seguridad necesarias.</li>
-						<li>Solo contrata medios de transporte formales.</li>
-						<li>Exige comprobante de pago.</li>
-          			</ul>
-          		</div>
-          	</div>
+            <div class="row">
+              <div class="col-md-12">
+                <h2>Disfruta de un viaje seguro</h2>
+                <ul>
+                  <li>Consulta y contrata servicios formales (www.mincetur.gob.pe/peru.travel)</li>
+            <li>Verifica las condiciones del servicio que contratas.</li>
+            <li>En turismo de aventura, verifica que te ofrezcan las medidas de seguridad necesarias.</li>
+            <li>Solo contrata medios de transporte formales.</li>
+            <li>Exige comprobante de pago.</li>
+                </ul>
+              </div>
+            </div>
           </section>
           
         </div>
-        <footer>
+        <img src="img/bg_footer.png">
+        <footer class="footer">
           <div class="row">
             <div class="col-md-3">
-              <h5>Informate</h5>
-              <ul>
+            <h5>Informate</h5>
+             <ul>
                 <li> <a href="#">Clima y pronostico del tiempo</a> </li>
                 <li> <a href="#">Cobertura móvil nacional</a></li>
                 <li> <a href="#">Mapas de viajes</a> </li>
@@ -121,8 +135,8 @@
             </div>
             <div class="col-md-9">
               <div class="terminos">
-              	Vigencia 16/07/2016 y 17/07/2016 pagando solo con Tarjetas de Crédito y Débito Interbank o con canje de puntos. Consulta tasas de interés, comisiones, gastos y penalidades en el tarifario, en Tiendas Interbank o en www.interbank.com.pe, conforme a la normativa de Transparencia.
-              </div>
+                Vigencia 16/07/2016 y 17/07/2016 pagando solo con Tarjetas de Crédito y Débito Interbank o con canje de puntos. Consulta tasas de interés, comisiones, gastos y penalidades en el tarifario, en Tiendas Interbank o en www.interbank.com.pe, conforme a la normativa de Transparencia.
+               </div>
             </div>
           </div>
         </footer>

@@ -1,106 +1,248 @@
-.seguridad{
-	/* la propiedad background permite colocar un color o imagen de fondo */
-	background: url("img/viaje-seguro.jpg") no-repeat center center;
-	height: 300px;
+.menu {
+list-style: none;
+padding: 0;
+margin:0
+}.menu li {
+display: inline-block;
+font-size: 18px;
+background: #FF0000;
 }
-.menu{
-	list-style: none;
-	padding: 0px;
-	margin: 0px;
-
-}
-.menu li{
-	display: inline-block;
-	font-size: 18px;
-}
-.menu li a {
-	color:#FFF;
-	display:block;
-	padding-right:10px;
+.menu li a{
+	color: #FFF;
+	display: block;
+	padding-right: 10px;
 	padding-left: 10px;
 	font-weight: bold;
 }
+.fondo-menu{
+	background: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 .cabecera{
 	padding-top: 20px;
-	padding-bottom:10px;
+	padding-bottom: 10px;
+}
+.banner{
+	/* la propiedad background permite colocar un color o imagen de fondo */
+	background: url("img/fondo-portada.jpg") no-repeat center center;
+	height: 500px;
+	padding: 100px;
+	color: #FFF;
+
 }
 .texto-bienvenida{
 	text-align: center;
-	padding-top: 30px;
+	padding-top: 30px,
 	padding-bottom: 30px;
-
+	color: red;
 }
 .texto-parrafo{
-	color: #666666;
+	color: black;
 	padding-bottom: 30px;
 }
+.promociones{
+	text-align: center;
+	padding-top: 30px,
+	padding-bottom: 30px;
+	color: red;
+}
 .mapas-guias{
-	background:#FA58AC;
-	color:#81BEF7;
-	padding-bottom: 18px;
-	padding-top: 18px;
+	background: #34641E;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	width: 250px;
+}
+.galeria-turistica{
+	background: #1C95D6;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	text-align: center;
 	font-weight: bold;
-	width:102px;
-}
-.galerias-turisticas{
-	background: #82FA58;
-	color:#FF0000;
-	padding-bottom: 18px;
-	padding-bottom: 18px;
-	padding-top: 18px;
-	text-align: center;
-	width: 102px;
-
+	width: 250px;
 }
 .mas-informacion{
-	background:#08088A; 
-	color:#FFF;
-	padding-bottom: 18px;
-	padding-top: 18px;
+	background: #FD6906;
 	text-align: center;
-	width: 102px;
-}
-.separar{
-margin-top: 40px;
-margin-bottom: 40px;
-
-}
-.fondo menu{
-	background: url("img/fondo-menu.png");
-	padding-top: 10px;
+	color: #FFF;
 	padding-bottom: 10px;
-	padding-left: 20px:
-	padding-right:20;
-
-
-}
-.menu li a {
-	color:#EFF;
-	display:inline-block;
-	padding-right: 20px;
-	padding-left: 20px;
+	padding-top: 10px;
+	text-align: center;
 	font-weight: bold;
+	width: 250px;
 }
 .subtitulo{
-	color: #900321;
-	font-family: "fantasy";
+	font-size: 28px;
+	font-weight: bold;
+	color: #CB7307;
+}
+.cuadro-imagen{
+	border: 1px
+	solid #999999;
+	padding: 10px;
+}
+.boton{
+	background: #CB7307;
+	color: #FFF;
+	padding: 8px;
+	border-radius: 5px;
+	float: right;
+}
+<.fondo-footer ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.fondo-footer ul li a{
+	color: #000;
+}
+.titulos-footer{
+	color: #CB7307;
+	font-size: 20px;
+	font-weight: bold;
+}
+.seguridad{
+	/* la propiedad background permite colocar un color o imagen de fondo */
+	background: url("img/viaje-seguro.jpg") no-repeat center center;
+	height: 600px;
+	padding: 100px;
+	color: #FFF;
+}
+.menu {
+list-style: none;
+padding: 0;
+margin:0
+}.menu li {
+display: inline-block;
+font-size: 18px;
+background: #FF0000;
+}
+.menu li a{
+	color: #FFF;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.fondo-menu{
+	background: red;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
+.cabecera{
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.banner{
+	/* la propiedad background permite colocar un color o imagen de fondo */
+	background: url("img/fondo-portada.jpg") no-repeat center center;
+	height: 500px;
+	padding: 100px;
+	color: #FFF;
+	border-image: 100px;
+
+}
+.texto-bienvenida{
+	text-align: center;
+	padding-top: 30px,
+	padding-bottom: 30px;
+	color: red;
+}
+.texto-parrafo{
+	color: black;
+	padding-bottom: 30px;
+}
+.promociones{
+	text-align: center;
+	padding-top: 30px,
+	padding-bottom: 30px;
+	color: red;
+}
+.mapas-guias{
+	background: #34641E;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	width: 250px;
+}
+.galeria-turistica{
+	background: #1C95D6;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	text-align: center;
+	font-weight: bold;
+	width: 250px;
+    border-image: 50px;
+}
+.mas-informacion{
+	background: #FD6906;
+	text-align: center;
+	color: #FFF;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	text-align: center;
+	font-weight: bold;
+	width: 250px;
+}
+.subtitulo{
+	font-size: 30px;
+	font-weight: bold;
+	color: #CB7307;
+}
+.boton{
+	background: #CB7307;
+	color: #FFF;
+	padding: 9px;
+	border-radius: 6px;
+	float: right;
+}
+<.fondo-footer ul{
+	list-style: none;
+	padding: 5;
+	margin: 5;
+}
+.fondo-footer ul li a{
+	color: #000;
+}
+.titulos-footer{
+	color: #CB7307;
+	font-size: 25px;
+	font-weight: bold;
+}
+.seguridad{
+	/* la propiedad background permite colocar un color o imagen de fondo */
+	background: url("img/viaje-seguro.jpg") no-repeat center center;
+	height: 620px;
+	padding: 100px;
+	color: #FFF;
 }
 .redes-sociales{
 	text-align: right;
 }
-.menu{
-	padding: 9px;
-	margin: 6px;
+.cuadro-imagen{
+border: 2px solid: #999999;
+padding: 5px;
+color: black;
 }
-.menu li a {
-	color:#EFF;
-	display: block;
-	padding-right: 20px;
-	padding-left: 20px;
-	font-weight: bold;
-}
+.footer{
 	
-
- 
+	background: url("img/bg_footer.png")no-repeat center;
+	background: red;
+	margin-bottom: 5cm;
+	margin-top: 0px;
+}
