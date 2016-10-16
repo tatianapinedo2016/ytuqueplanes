@@ -3,3 +3,104 @@
 	background: url("img/viaje-seguro.jpg") no-repeat center center;
 	height: 300px;
 }
+.menu{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+}
+.menu li{
+	display: inline-block;
+	font-size: 18px;
+}
+.menu li a {
+	color:#FFF;
+	display:block;
+	padding-right:10px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.cabecera{
+	padding-top: 20px;
+	padding-bottom:10px;
+}
+.texto-bienvenida{
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.texto-parrafo{
+	color: #666666;
+	padding-bottom: 30px;
+}
+.mapas-guias{
+	background:#FA58AC;
+	color:#81BEF7;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	text-align: center;
+	font-weight: bold;
+	width:102px;
+}
+.galerias-turisticas{
+	background: #82FA58;
+	color:#FF0000;
+	padding-bottom: 18px;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	text-align: center;
+	width: 102px;
+
+}
+.mas-informacion{
+	background:#08088A; 
+	color:#FFF;
+	padding-bottom: 18px;
+	padding-top: 18px;
+	text-align: center;
+	width: 102px;
+}
+.separar{
+margin-top: 40px;
+margin-bottom: 40px;
+
+}
+.fondo menu{
+	background: url("img/fondo-menu.png");
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px:
+	padding-right:20;
+
+
+}
+.menu li a {
+	color:#EFF;
+	display:inline-block;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+.subtitulo{
+	color: #900321;
+	font-family: "fantasy";
+
+}
+.redes-sociales{
+	text-align: right;
+}
+.menu{
+	padding: 9px;
+	margin: 6px;
+}
+.menu li a {
+	color:#EFF;
+	display: block;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-weight: bold;
+}
+	
+
+ 
